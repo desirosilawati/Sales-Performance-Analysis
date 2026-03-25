@@ -1,22 +1,22 @@
 # Sales Performance Analysis
 
 ## Background
-Dalam bisnis penjualan, penting untuk memahami performa produk dan tren penjualan guna mendukung pengambilan keputusan yang tepat. Analisis data penjualan dapat membantu mengidentifikasi produk terlaris serta peluang peningkatan revenue.
+Dalam bisnis penjualan, pemahaman terhadap performa produk dan tren penjualan sangat penting untuk mendukung pengambilan keputusan yang tepat. Analisis data penjualan membantu perusahaan dalam mengidentifikasi produk unggulan serta peluang peningkatan revenue.
 
 ---
 
 ## Objective
 - Menganalisis total penjualan per produk
-- Mengidentifikasi produk dengan performa terbaik
+- Mengidentifikasi produk dengan performa terbaik dan terendah
 - Menganalisis tren penjualan harian
-- Mengidentifikasi produk dengan performa rendah
+- Mengidentifikasi peluang peningkatan revenue
 
 ---
 
 ## Dataset
-Project ini menggunakan dataset simulasi yang terdiri dari:
+Dataset yang digunakan merupakan data simulasi penjualan yang terdiri dari:
 
-- **sales_data.csv** → Data penjualan per transaksi (tanggal, produk, jumlah, harga)
+- **sales_data.csv** → Data transaksi penjualan (tanggal, produk, jumlah, harga)
 
 ---
 
@@ -33,38 +33,46 @@ Project ini menggunakan dataset simulasi yang terdiri dari:
 
 ---
 
+## Key Metrics
+- Total Revenue  
+- Jumlah Transaksi  
+- Average Order Value  
+
+---
+
 ## Analysis
 Analisis dilakukan menggunakan SQL, meliputi:
 
 - Total penjualan per produk  
 - Jumlah transaksi per produk  
-- Rata-rata penjualan per produk  
-- Analisis penjualan per hari  
-- Identifikasi produk dengan penjualan tertinggi  
+- Rata-rata nilai transaksi per produk  
+- Analisis penjualan harian  
+- Identifikasi produk dengan penjualan tertinggi dan terendah  
 
 ---
 
 ## Key Findings
-- Produk tertentu memiliki kontribusi penjualan paling tinggi dibanding produk lainnya  
-- Terdapat variasi penjualan harian yang dapat menunjukkan pola permintaan  
-- Beberapa produk memiliki performa penjualan yang lebih rendah dibanding produk lain  
+- Produk **P01** memiliki total penjualan tertinggi dibanding produk lainnya  
+- Penjualan tertinggi terjadi pada tanggal **2024-01-04**, menunjukkan adanya lonjakan permintaan  
+- Produk **P02** memiliki frekuensi transaksi yang cukup tinggi, namun nilai penjualannya masih di bawah P01  
+- Terdapat perbedaan performa antar produk yang menunjukkan potensi optimalisasi strategi penjualan  
 
 ---
 
 ## Business Impact
 Analisis ini membantu:
-- Mengidentifikasi produk unggulan untuk difokuskan  
-- Mengoptimalkan strategi penjualan  
-- Meningkatkan potensi revenue  
-- Mendukung pengambilan keputusan berbasis data  
+- Mengidentifikasi produk unggulan yang dapat difokuskan untuk meningkatkan revenue  
+- Mengetahui pola penjualan untuk mendukung strategi promosi  
+- Mengoptimalkan strategi penjualan berbasis data  
+- Mendukung pengambilan keputusan yang lebih akurat  
 
 ---
 
 ## Recommendation
 - Fokus pada produk dengan performa tinggi untuk meningkatkan penjualan  
-- Melakukan evaluasi terhadap produk dengan performa rendah  
-- Menganalisis lebih lanjut tren penjualan untuk strategi promosi  
-- Menggunakan data secara berkala untuk monitoring performa  
+- Evaluasi strategi untuk produk dengan performa rendah  
+- Manfaatkan tren penjualan harian untuk menentukan waktu promosi  
+- Lakukan monitoring data penjualan secara berkala  
 
 ---
 
