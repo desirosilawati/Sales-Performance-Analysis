@@ -29,3 +29,11 @@ FROM sales_data
 GROUP BY product_id
 ORDER BY total_penjualan DESC
 LIMIT 1;
+
+-- Produk dengan penjualan terendah
+SELECT product_id,
+       SUM(jumlah * harga) AS total_penjualan
+FROM sales_data
+GROUP BY product_id
+ORDER BY total_penjualan ASC
+LIMIT 1;
